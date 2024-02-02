@@ -3,6 +3,6 @@ but we can create multiple playbook configuration directories such as /opt/web-p
 
 **Configuration variables:**
 $ ANSIBLE_GATHERING = explicit ansible-playbook playbook.yml    (we can specify the variable key/value before executing playbook but this is not persistent)
-as alternative we can consider using export:
+as alternative we can consider using export to make this change applicable shell wide, until you exit shell
 $ export ANSIBLE_GATHERING=explicit
 $ ansible-playbook playbook.yml
