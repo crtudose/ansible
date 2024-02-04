@@ -17,3 +17,14 @@ Lab:
 [bob@student-node playbooks]$ cat practice.yaml 
 employee:  # dictionary
   name: john  # key/value separated by a colon
+
+[bob@student-node playbooks]$ cat practice.yaml # array with line at beginning
+- name: apple
+  color: red
+  weight: 100g
+- name: orange
+  color: orange
+  weight: 90g
+- name: mango
+  color: yellow
+  weight: 150g
