@@ -12,3 +12,8 @@ To make this change persistent, we can use configuration file such as /opt/web-p
 $ ansible-config list #lists all configurations
 $ ansible-config view # shows the current config file
 $ ansible-config dump # shows the current settings
+
+Lab:
+[bob@student-node playbooks]$ cat practice.yaml 
+employee:  # disctionary
+  name: john  # key/value separated by a colon
