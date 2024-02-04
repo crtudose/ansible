@@ -18,7 +18,7 @@ Lab1:
 employee:  # dictionary
   name: john  # key/value separated by a colon
 
-[bob@student-node playbooks]$ cat practice.yaml # array with line at beginning
+[bob@student-node playbooks]$ cat practice.yaml # array with line at beginning of each dataset
 - name: apple
   color: red
   weight: 100g
