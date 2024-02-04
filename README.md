@@ -15,10 +15,10 @@ $ ansible-config dump # shows the current settings
 
 Lab1:
 [bob@student-node playbooks]$ cat practice.yaml 
-employee:  # dictionary
+employee:  # **dictionary**
   name: john  # key/value separated by a colon
 
-[bob@student-node playbooks]$ cat practice.yaml # array with line at beginning of each dataset
+[bob@student-node playbooks]$ cat practice.yaml # **array** with line at beginning of each dataset
 - name: apple
   color: red
   weight: 100g
