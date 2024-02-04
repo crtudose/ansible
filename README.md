@@ -13,7 +13,7 @@ $ ansible-config list #lists all configurations
 $ ansible-config view # shows the current config file
 $ ansible-config dump # shows the current settings
 
-Lab:
+Lab1:
 [bob@student-node playbooks]$ cat practice.yaml 
 employee:  # dictionary
   name: john  # key/value separated by a colon
