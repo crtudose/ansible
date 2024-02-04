@@ -15,5 +15,5 @@ $ ansible-config dump # shows the current settings
 
 Lab:
 [bob@student-node playbooks]$ cat practice.yaml 
-employee:  # disctionary
+employee:  # dictionary
   name: john  # key/value separated by a colon
